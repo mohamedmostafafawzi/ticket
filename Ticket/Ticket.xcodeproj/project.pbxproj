@@ -14,6 +14,8 @@
 		70C11E072B2F423200EC3220 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E062B2F423200EC3220 /* CircleBackground.swift */; };
 		70C11E092B2F42C100EC3220 /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E082B2F42C100EC3220 /* StatusUI.swift */; };
 		70C11E0B2B2F433800EC3220 /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E0A2B2F433800EC3220 /* TicketModel.swift */; };
+		70C11E0D2B2F437800EC3220 /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E0C2B2F437800EC3220 /* PosterData.swift */; };
+		70C11E102B2F43D500EC3220 /* TimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E0F2B2F43D500EC3220 /* TimeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		70C11E062B2F423200EC3220 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		70C11E082B2F42C100EC3220 /* StatusUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
 		70C11E0A2B2F433800EC3220 /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
+		70C11E0C2B2F437800EC3220 /* PosterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
+		70C11E0F2B2F43D500EC3220 /* TimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				70C11E0A2B2F433800EC3220 /* TicketModel.swift */,
+				70C11E0C2B2F437800EC3220 /* PosterData.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -110,10 +115,19 @@
 		70C11E052B2F3F4D00EC3220 /* View Components */ = {
 			isa = PBXGroup;
 			children = (
+				70C11E0E2B2F43B000EC3220 /* Buttons Views */,
 				70C11E062B2F423200EC3220 /* CircleBackground.swift */,
 				70C11E082B2F42C100EC3220 /* StatusUI.swift */,
 			);
 			path = "View Components";
+			sourceTree = "<group>";
+		};
+		70C11E0E2B2F43B000EC3220 /* Buttons Views */ = {
+			isa = PBXGroup;
+			children = (
+				70C11E0F2B2F43D500EC3220 /* TimeButton.swift */,
+			);
+			path = "Buttons Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +202,9 @@
 			files = (
 				70C11E0B2B2F433800EC3220 /* TicketModel.swift in Sources */,
 				70C11E072B2F423200EC3220 /* CircleBackground.swift in Sources */,
+				70C11E0D2B2F437800EC3220 /* PosterData.swift in Sources */,
 				70C11DF62B2F3DC000EC3220 /* ContentView.swift in Sources */,
+				70C11E102B2F43D500EC3220 /* TimeButton.swift in Sources */,
 				70C11DF42B2F3DC000EC3220 /* TicketApp.swift in Sources */,
 				70C11E092B2F42C100EC3220 /* StatusUI.swift in Sources */,
 			);
