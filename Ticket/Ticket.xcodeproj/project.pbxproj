@@ -13,6 +13,7 @@
 		70C11DFB2B2F3DC200EC3220 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C11DFA2B2F3DC200EC3220 /* Preview Assets.xcassets */; };
 		70C11E072B2F423200EC3220 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E062B2F423200EC3220 /* CircleBackground.swift */; };
 		70C11E092B2F42C100EC3220 /* StatusUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E082B2F42C100EC3220 /* StatusUI.swift */; };
+		70C11E0B2B2F433800EC3220 /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E0A2B2F433800EC3220 /* TicketModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		70C11DFA2B2F3DC200EC3220 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		70C11E062B2F423200EC3220 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		70C11E082B2F42C100EC3220 /* StatusUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusUI.swift; sourceTree = "<group>"; };
+		70C11E0A2B2F433800EC3220 /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		70C11E022B2F3E6D00EC3220 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				70C11E0A2B2F433800EC3220 /* TicketModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C11E0B2B2F433800EC3220 /* TicketModel.swift in Sources */,
 				70C11E072B2F423200EC3220 /* CircleBackground.swift in Sources */,
 				70C11DF62B2F3DC000EC3220 /* ContentView.swift in Sources */,
 				70C11DF42B2F3DC000EC3220 /* TicketApp.swift in Sources */,
