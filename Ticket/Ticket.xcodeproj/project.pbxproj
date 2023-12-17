@@ -19,6 +19,7 @@
 		70C11E122B2F444C00EC3220 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E112B2F444B00EC3220 /* DateButton.swift */; };
 		70C11E142B2F448E00EC3220 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E132B2F448E00EC3220 /* CircleButton.swift */; };
 		70C11E162B2F44B600EC3220 /* LargeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E152B2F44B600EC3220 /* LargeButton.swift */; };
+		70C11E182B2F44FB00EC3220 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E172B2F44FB00EC3220 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		70C11E112B2F444B00EC3220 /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
 		70C11E132B2F448E00EC3220 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		70C11E152B2F44B600EC3220 /* LargeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeButton.swift; sourceTree = "<group>"; };
+		70C11E172B2F44FB00EC3220 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				70C11E112B2F444B00EC3220 /* DateButton.swift */,
 				70C11E132B2F448E00EC3220 /* CircleButton.swift */,
 				70C11E152B2F44B600EC3220 /* LargeButton.swift */,
+				70C11E172B2F44FB00EC3220 /* RoundButton.swift */,
 			);
 			path = "Buttons Views";
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				70C11E162B2F44B600EC3220 /* LargeButton.swift in Sources */,
 				70C11E072B2F423200EC3220 /* CircleBackground.swift in Sources */,
 				70C11E0D2B2F437800EC3220 /* PosterData.swift in Sources */,
+				70C11E182B2F44FB00EC3220 /* RoundButton.swift in Sources */,
 				70C11E142B2F448E00EC3220 /* CircleButton.swift in Sources */,
 				70C11DF62B2F3DC000EC3220 /* ContentView.swift in Sources */,
 				70C11E102B2F43D500EC3220 /* TimeButton.swift in Sources */,
