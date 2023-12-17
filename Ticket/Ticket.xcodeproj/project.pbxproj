@@ -16,6 +16,7 @@
 		70C11E0B2B2F433800EC3220 /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E0A2B2F433800EC3220 /* TicketModel.swift */; };
 		70C11E0D2B2F437800EC3220 /* PosterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E0C2B2F437800EC3220 /* PosterData.swift */; };
 		70C11E102B2F43D500EC3220 /* TimeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E0F2B2F43D500EC3220 /* TimeButton.swift */; };
+		70C11E122B2F444C00EC3220 /* DateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11E112B2F444B00EC3220 /* DateButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		70C11E0A2B2F433800EC3220 /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
 		70C11E0C2B2F437800EC3220 /* PosterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterData.swift; sourceTree = "<group>"; };
 		70C11E0F2B2F43D500EC3220 /* TimeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeButton.swift; sourceTree = "<group>"; };
+		70C11E112B2F444B00EC3220 /* DateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				70C11E0F2B2F43D500EC3220 /* TimeButton.swift */,
+				70C11E112B2F444B00EC3220 /* DateButton.swift */,
 			);
 			path = "Buttons Views";
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				70C11E0D2B2F437800EC3220 /* PosterData.swift in Sources */,
 				70C11DF62B2F3DC000EC3220 /* ContentView.swift in Sources */,
 				70C11E102B2F43D500EC3220 /* TimeButton.swift in Sources */,
+				70C11E122B2F444C00EC3220 /* DateButton.swift in Sources */,
 				70C11DF42B2F3DC000EC3220 /* TicketApp.swift in Sources */,
 				70C11E092B2F42C100EC3220 /* StatusUI.swift in Sources */,
 			);
