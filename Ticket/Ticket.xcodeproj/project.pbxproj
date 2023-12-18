@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		707430FA2B3058D20038B346 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707430F92B3058D20038B346 /* Ticket.swift */; };
 		707430FC2B305FD70038B346 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707430FB2B305FD70038B346 /* Tickets.swift */; };
+		707430FE2B308FEC0038B346 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707430FD2B308FEC0038B346 /* TabBarModel.swift */; };
+		707431002B30981D0038B346 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707430FF2B30981D0038B346 /* CustomTabBar.swift */; };
 		70C11DF42B2F3DC000EC3220 /* TicketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11DF32B2F3DC000EC3220 /* TicketApp.swift */; };
 		70C11DF62B2F3DC000EC3220 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11DF52B2F3DC000EC3220 /* ContentView.swift */; };
 		70C11DF82B2F3DC200EC3220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C11DF72B2F3DC200EC3220 /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		707430F92B3058D20038B346 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
 		707430FB2B305FD70038B346 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
+		707430FD2B308FEC0038B346 /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
+		707430FF2B30981D0038B346 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		70C11DF02B2F3DBF00EC3220 /* Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C11DF32B2F3DC000EC3220 /* TicketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketApp.swift; sourceTree = "<group>"; };
 		70C11DF52B2F3DC000EC3220 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,7 +112,6 @@
 		70C11E012B2F3E5800EC3220 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				707430F82B3058BC0038B346 /* Cards */,
 				70C11DF52B2F3DC000EC3220 /* ContentView.swift */,
 				70C11E1B2B304C2800EC3220 /* TicketView.swift */,
 			);
@@ -120,6 +123,7 @@
 			children = (
 				70C11E0A2B2F433800EC3220 /* TicketModel.swift */,
 				70C11E0C2B2F437800EC3220 /* PosterData.swift */,
+				707430FD2B308FEC0038B346 /* TabBarModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,9 +147,11 @@
 		70C11E052B2F3F4D00EC3220 /* View Components */ = {
 			isa = PBXGroup;
 			children = (
+				707430F82B3058BC0038B346 /* Cards */,
 				70C11E0E2B2F43B000EC3220 /* Buttons Views */,
 				70C11E062B2F423200EC3220 /* CircleBackground.swift */,
 				70C11E082B2F42C100EC3220 /* StatusUI.swift */,
+				707430FF2B30981D0038B346 /* CustomTabBar.swift */,
 			);
 			path = "View Components";
 			sourceTree = "<group>";
@@ -240,7 +246,9 @@
 				70C11E0D2B2F437800EC3220 /* PosterData.swift in Sources */,
 				707430FA2B3058D20038B346 /* Ticket.swift in Sources */,
 				70C11E182B2F44FB00EC3220 /* RoundButton.swift in Sources */,
+				707431002B30981D0038B346 /* CustomTabBar.swift in Sources */,
 				70C11E142B2F448E00EC3220 /* CircleButton.swift in Sources */,
+				707430FE2B308FEC0038B346 /* TabBarModel.swift in Sources */,
 				70C11E1A2B303B8000EC3220 /* Utilities.swift in Sources */,
 				70C11DF62B2F3DC000EC3220 /* ContentView.swift in Sources */,
 				70C11E102B2F43D500EC3220 /* TimeButton.swift in Sources */,

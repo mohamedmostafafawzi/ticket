@@ -38,7 +38,7 @@ struct TicketView: View {
                     .foregroundColor(.white)
                     .multilineTextAlignment(.center)
             }
-            .padding(.horizontal, 20)
+            .padding([.top, .leading, .trailing], 20)
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, maxHeight: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .top)
             
             Tickets()
