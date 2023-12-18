@@ -22,10 +22,14 @@ struct HomeSection: View {
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 20.0) {
                     ForEach(posters.indices, id: \.self) { index in
-                        Image(posters[index])
-                            .resizable()
-                            .frame(width: 100, height: 130)
-                            .cornerRadius(20)
+                        NavigationLink {
+                            Text("Booking")
+                        } label: {
+                            Image(posters[index])
+                                .resizable()
+                                .frame(width: 100, height: 130)
+                                .cornerRadius(20)
+                        }
                     }
                 }
                 .offset(x: 20)
