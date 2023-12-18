@@ -11,6 +11,7 @@
 		707430FC2B305FD70038B346 /* Tickets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707430FB2B305FD70038B346 /* Tickets.swift */; };
 		707430FE2B308FEC0038B346 /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707430FD2B308FEC0038B346 /* TabBarModel.swift */; };
 		707431002B30981D0038B346 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707430FF2B30981D0038B346 /* CustomTabBar.swift */; };
+		707431022B309E830038B346 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707431012B309E830038B346 /* HomeView.swift */; };
 		70C11DF42B2F3DC000EC3220 /* TicketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11DF32B2F3DC000EC3220 /* TicketApp.swift */; };
 		70C11DF62B2F3DC000EC3220 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11DF52B2F3DC000EC3220 /* ContentView.swift */; };
 		70C11DF82B2F3DC200EC3220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C11DF72B2F3DC200EC3220 /* Assets.xcassets */; };
@@ -33,6 +34,7 @@
 		707430FB2B305FD70038B346 /* Tickets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tickets.swift; sourceTree = "<group>"; };
 		707430FD2B308FEC0038B346 /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
 		707430FF2B30981D0038B346 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		707431012B309E830038B346 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		70C11DF02B2F3DBF00EC3220 /* Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C11DF32B2F3DC000EC3220 /* TicketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketApp.swift; sourceTree = "<group>"; };
 		70C11DF52B2F3DC000EC3220 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			children = (
 				70C11DF52B2F3DC000EC3220 /* ContentView.swift */,
 				70C11E1B2B304C2800EC3220 /* TicketView.swift */,
+				707431012B309E830038B346 /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				707430FA2B3058D20038B346 /* Ticket.swift in Sources */,
 				70C11E182B2F44FB00EC3220 /* RoundButton.swift in Sources */,
 				707431002B30981D0038B346 /* CustomTabBar.swift in Sources */,
+				707431022B309E830038B346 /* HomeView.swift in Sources */,
 				70C11E142B2F448E00EC3220 /* CircleButton.swift in Sources */,
 				707430FE2B308FEC0038B346 /* TabBarModel.swift in Sources */,
 				70C11E1A2B303B8000EC3220 /* Utilities.swift in Sources */,
