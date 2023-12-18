@@ -13,6 +13,7 @@
 		707431002B30981D0038B346 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707430FF2B30981D0038B346 /* CustomTabBar.swift */; };
 		707431022B309E830038B346 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707431012B309E830038B346 /* HomeView.swift */; };
 		707431042B30A03C0038B346 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707431032B30A03C0038B346 /* CustomSearchBar.swift */; };
+		707431062B30AA250038B346 /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707431052B30AA250038B346 /* HomeSection.swift */; };
 		70C11DF42B2F3DC000EC3220 /* TicketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11DF32B2F3DC000EC3220 /* TicketApp.swift */; };
 		70C11DF62B2F3DC000EC3220 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11DF52B2F3DC000EC3220 /* ContentView.swift */; };
 		70C11DF82B2F3DC200EC3220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C11DF72B2F3DC200EC3220 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		707430FF2B30981D0038B346 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		707431012B309E830038B346 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		707431032B30A03C0038B346 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
+		707431052B30AA250038B346 /* HomeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSection.swift; sourceTree = "<group>"; };
 		70C11DF02B2F3DBF00EC3220 /* Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C11DF32B2F3DC000EC3220 /* TicketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketApp.swift; sourceTree = "<group>"; };
 		70C11DF52B2F3DC000EC3220 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				70C11E082B2F42C100EC3220 /* StatusUI.swift */,
 				707430FF2B30981D0038B346 /* CustomTabBar.swift */,
 				707431032B30A03C0038B346 /* CustomSearchBar.swift */,
+				707431052B30AA250038B346 /* HomeSection.swift */,
 			);
 			path = "View Components";
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				70C11E072B2F423200EC3220 /* CircleBackground.swift in Sources */,
 				707430FC2B305FD70038B346 /* Tickets.swift in Sources */,
 				70C11E0D2B2F437800EC3220 /* PosterData.swift in Sources */,
+				707431062B30AA250038B346 /* HomeSection.swift in Sources */,
 				707430FA2B3058D20038B346 /* Ticket.swift in Sources */,
 				70C11E182B2F44FB00EC3220 /* RoundButton.swift in Sources */,
 				707431002B30981D0038B346 /* CustomTabBar.swift in Sources */,
