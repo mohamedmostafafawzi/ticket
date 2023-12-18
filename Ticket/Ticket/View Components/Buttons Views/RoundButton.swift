@@ -33,8 +33,7 @@ struct RoundButton: View {
                     Rectangle()
                         .fill(.black.opacity(0.3))
                         .frame(width: 100, height: 100)
-                    // TODO: corners: [.topLeft, .bottomLeft] 
-                        .cornerRadius(40)
+                        .cornerRadius(40, corners: [.topLeft, .bottomLeft])
                 )
         }
     }
