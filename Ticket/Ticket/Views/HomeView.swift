@@ -35,6 +35,9 @@ struct HomeView: View {
                     .fontWeight(.bold)
                     .font(.title3)
                     .foregroundColor(.white)
+                
+                CustomSearchBar()
+                    .padding(EdgeInsets(top: 30, leading: 20, bottom: 20, trailing: 20))
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         }
