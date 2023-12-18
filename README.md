@@ -1,6 +1,7 @@
 # Ticket
 
 A Movie booking app, made for iOS Devices.
+Designed by [Sourasith](https://www.figma.com/community/file/1102953368834419129/movie-ticket-booking-app-design)
 
 ## Screenshots
 
