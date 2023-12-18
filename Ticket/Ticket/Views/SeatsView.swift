@@ -50,11 +50,11 @@ struct SeatsView: View {
                 }
             
             HStack(spacing: 20.0) {
-                StatusUI()
+                StatusView()
                 
-                StatusUI(color: Color("majenta"), text: "Reserved")
+                StatusView(color: Color("majenta"), text: "Reserved")
                 
-                StatusUI(color: Color("cyan"), text: "Selected")
+                StatusView(color: Color("cyan"), text: "Selected")
             }
             .padding(.top, 60)
             

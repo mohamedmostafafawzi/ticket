@@ -21,16 +21,16 @@ struct ContentView: View {
                     HomeView()
                         .tag(Tab.home)
                     
-                    Text("Location")
+                    ComingSoonView()
                         .tag(Tab.location)
                     
                     TicketView()
                         .tag(Tab.ticket)
                     
-                    Text("Category")
+                    ComingSoonView()
                         .tag(Tab.category)
                     
-                    Text("Profile")
+                    ComingSoonView()
                         .tag(Tab.profile)
                 }
                 

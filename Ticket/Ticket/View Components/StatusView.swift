@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct StatusUI: View {
+struct StatusView: View {
     @State var color: Color = Color(.white)
     @State var text: String = "Available"
     
@@ -25,5 +25,5 @@ struct StatusUI: View {
 }
 
 #Preview {
-    StatusUI()
+    StatusView()
 }
