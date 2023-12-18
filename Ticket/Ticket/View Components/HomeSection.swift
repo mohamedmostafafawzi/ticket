@@ -23,7 +23,7 @@ struct HomeSection: View {
                 HStack(spacing: 20.0) {
                     ForEach(posters.indices, id: \.self) { index in
                         NavigationLink {
-                            Text("Booking")
+                            BookingView()
                         } label: {
                             Image(posters[index])
                                 .resizable()

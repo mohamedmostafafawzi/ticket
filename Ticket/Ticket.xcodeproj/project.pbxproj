@@ -15,6 +15,7 @@
 		707431042B30A03C0038B346 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707431032B30A03C0038B346 /* CustomSearchBar.swift */; };
 		707431062B30AA250038B346 /* HomeSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707431052B30AA250038B346 /* HomeSection.swift */; };
 		707431082B30B3920038B346 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707431072B30B3920038B346 /* BookingView.swift */; };
+		7074310A2B30B5D80038B346 /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707431092B30B5D80038B346 /* SeatsView.swift */; };
 		70C11DF42B2F3DC000EC3220 /* TicketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11DF32B2F3DC000EC3220 /* TicketApp.swift */; };
 		70C11DF62B2F3DC000EC3220 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C11DF52B2F3DC000EC3220 /* ContentView.swift */; };
 		70C11DF82B2F3DC200EC3220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C11DF72B2F3DC200EC3220 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		707431032B30A03C0038B346 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 		707431052B30AA250038B346 /* HomeSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSection.swift; sourceTree = "<group>"; };
 		707431072B30B3920038B346 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		707431092B30B5D80038B346 /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
 		70C11DF02B2F3DBF00EC3220 /* Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ticket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C11DF32B2F3DC000EC3220 /* TicketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketApp.swift; sourceTree = "<group>"; };
 		70C11DF52B2F3DC000EC3220 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				70C11E1B2B304C2800EC3220 /* TicketView.swift */,
 				707431012B309E830038B346 /* HomeView.swift */,
 				707431072B30B3920038B346 /* BookingView.swift */,
+				707431092B30B5D80038B346 /* SeatsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				707430FE2B308FEC0038B346 /* TabBarModel.swift in Sources */,
 				70C11E1A2B303B8000EC3220 /* Utilities.swift in Sources */,
 				70C11DF62B2F3DC000EC3220 /* ContentView.swift in Sources */,
+				7074310A2B30B5D80038B346 /* SeatsView.swift in Sources */,
 				70C11E102B2F43D500EC3220 /* TimeButton.swift in Sources */,
 				70C11E122B2F444C00EC3220 /* DateButton.swift in Sources */,
 				70C11DF42B2F3DC000EC3220 /* TicketApp.swift in Sources */,
